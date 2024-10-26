@@ -38,7 +38,9 @@
 
     git tag
 
-按enter键拉到最新版本，确认需要的版本，一般选择最新版本。建议去官网查询自己硬件支持的最新版本：https://openwrt.org/toh/views/toh_fwdownload?dataflt%5B0%5D=supported%20current%20rel_%3D23.05.2
+按enter键拉到最新版本，确认需要的版本，一般选择最新版本。建议去官网查询自己硬件支持的最新版本：
+https://openwrt.org/toh/views/toh_fwdownload?dataflt%5B0%5D=supported%20current%20rel_%3D23.05.2
+
 目前，2024年10月26日，官方最新版是23.05.5，根据我自己的经验，x86_64选最新版有一些插件兼容性问题，我的路由器红米AC2100官方目前支持到23.05.4，接下来以23.05.4为例编译
 
 切换版本
@@ -177,6 +179,8 @@ j$(nproc)表示最大cpu线程编译，优点速度快，缺点出错后报错�
 #### 通过ssh软件如finalshell下载
 
 首先下载finalshell软件，并通过ssh登录到服务器，在下方文件区直接右键鼠标进行下载
+
+-----------------------
 
 ## openwrt插件推荐
 
