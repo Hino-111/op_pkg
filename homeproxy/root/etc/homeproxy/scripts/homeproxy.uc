@@ -74,14 +74,11 @@ export function getTime(epoch) {
 
 };
 
-export function wGET(url, ua) {
+export function wGET(url) {
 	if (!url || type(url) !== 'string')
 		return null;
 
-	if (!ua)
-		ua = 'Wget/1.21 (HomeProxy, like v2rayN)';
-
-	const output = executeCommand(`/usr/bin/wget -qO- --user-agent ${shellQuote(ua)} --timeout=10 ${shellQuote(url)}`) || {};
+	const output = executeCommand(`/usr/bin/wget -qO- --user-agent 'Wget/1.21 (HomeProxy, like v2rayN)' --timeout=10 ${shellQuote(url)}`) || {};
 	return trim(output.stdout);
 };
 /* Utilities end */
@@ -209,7 +206,7 @@ export function parseURL(url) {
 		return null;
 
 	if (objurl.userinfo) {
-		objurl.userinfo = replace(objurl.userinfo, /:(.+)$/, (_, val) => {
+		objurl.userinfo = replace(objurl.userinfo, /:([^:]+)$/, (_, val) => {
 			objurl.password = val;
 			return '';
 		});
