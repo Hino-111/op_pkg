@@ -30,7 +30,7 @@
     libpython3-dev qemu-utils rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip \vim wget xmlto xxd zlib1g-dev
 
 ### 克隆官方源码
-    git clone https://github.com/openwrt/openwrt
+    git clone -b main https://github.com/openwrt/openwrt
 
 该步骤会生成openwrt的文件夹，进入文件夹，并获取版本信息
 
