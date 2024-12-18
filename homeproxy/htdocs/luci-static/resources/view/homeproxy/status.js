@@ -1,4 +1,5 @@
-/* SPDX-License-Identifier: GPL-2.0-only
+/*
+ * SPDX-License-Identifier: GPL-2.0-only
  *
  * Copyright (C) 2022-2023 ImmortalWrt.org
  */
@@ -31,7 +32,7 @@ var css = '				\
 var hp_dir = '/var/run/homeproxy';
 
 function getConnStat(self, site) {
-	var callConnStat = rpc.declare({
+	const callConnStat = rpc.declare({
 		object: 'luci.homeproxy',
 		method: 'connection_check',
 		params: ['site'],
@@ -60,14 +61,14 @@ function getConnStat(self, site) {
 }
 
 function getResVersion(self, type) {
-	var callResVersion = rpc.declare({
+	const callResVersion = rpc.declare({
 		object: 'luci.homeproxy',
 		method: 'resources_get_version',
 		params: ['type'],
 		expect: { '': {} }
 	});
 
-	var callResUpdate = rpc.declare({
+	const callResUpdate = rpc.declare({
 		object: 'luci.homeproxy',
 		method: 'resources_update',
 		params: ['type'],
@@ -113,7 +114,7 @@ function getResVersion(self, type) {
 }
 
 function getRuntimeLog(name, filename) {
-	var callLogClean = rpc.declare({
+	const callLogClean = rpc.declare({
 		object: 'luci.homeproxy',
 		method: 'log_clean',
 		params: ['type'],
@@ -184,8 +185,6 @@ return view.extend({
 	render: function(data) {
 		var m, s, o;
 		var routing_mode = uci.get(data[0], 'config', 'routing_mode') || 'bypass_mainland_china';
-		var bypass_cn_traffic = uci.get(data[0], 'routing', 'bypass_cn_traffic') || '0';
-		var ipv6_support = uci.get(data[0], 'config', 'ipv6_support') || '0';
 
 		m = new form.Map('homeproxy');
 
@@ -202,39 +201,21 @@ return view.extend({
 		s = m.section(form.NamedSection, 'config', 'homeproxy', _('Resources management'));
 		s.anonymous = true;
 
-		o = s.option(form.DummyValue, '_clash_dashboard_version', _('Clash dashboard version'));
-		o.cfgvalue = function() { return getResVersion(this, 'clash_dashboard') };
+		o = s.option(form.DummyValue, '_china_ip4_version', _('China IPv4 list version'));
+		o.cfgvalue = function() { return getResVersion(this, 'china_ip4') };
 		o.rawhtml = true;
 
-		// if (routing_mode === 'custom') {
-		// 	o = s.option(form.DummyValue, '_geoip_version', _('GeoIP version'));
-		// 	o.cfgvalue = function() { return getResVersion(this, 'geoip') };
-		// 	o.rawhtml = true;
+		o = s.option(form.DummyValue, '_china_ip6_version', _('China IPv6 list version'));
+		o.cfgvalue = function() { return getResVersion(this, 'china_ip6') };
+		o.rawhtml = true;
 
-		// 	o = s.option(form.DummyValue, '_geosite_version', _('GeoSite version'));
-		// 	o.cfgvalue = function() { return getResVersion(this, 'geosite') };
-		// 	o.rawhtml = true;
-		// }
+		o = s.option(form.DummyValue, '_china_list_version', _('China list version'));
+		o.cfgvalue = function() { return getResVersion(this, 'china_list') };
+		o.rawhtml = true;
 
-		if (bypass_cn_traffic === '1') {
-			o = s.option(form.DummyValue, '_china_ip4_version', _('China IPv4 list version'));
-			o.cfgvalue = function() { return getResVersion(this, 'china_ip4') };
-			o.rawhtml = true;
-
-			if (ipv6_support === '1') {
-				o = s.option(form.DummyValue, '_china_ip6_version', _('China IPv6 list version'));
-				o.cfgvalue = function() { return getResVersion(this, 'china_ip6') };
-				o.rawhtml = true;
-			}
-		}
-
-		// o = s.option(form.DummyValue, '_china_list_version', _('China list version'));
-		// o.cfgvalue = function() { return getResVersion(this, 'china_list') };
-		// o.rawhtml = true;
-
-		// o = s.option(form.DummyValue, '_gfw_list_version', _('GFW list version'));
-		// o.cfgvalue = function() { return getResVersion(this, 'gfw_list') };
-		// o.rawhtml = true;
+		o = s.option(form.DummyValue, '_gfw_list_version', _('GFW list version'));
+		o.cfgvalue = function() { return getResVersion(this, 'gfw_list') };
+		o.rawhtml = true;
 
 		s = m.section(form.NamedSection, 'config', 'homeproxy');
 		s.anonymous = true;

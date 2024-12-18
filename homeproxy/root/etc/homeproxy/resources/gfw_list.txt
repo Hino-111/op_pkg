@@ -292,6 +292,7 @@ anonymouse.org
 anpopo.com
 answering-islam.org
 anthonycalzadilla.com
+anthropic.com
 anti1984.com
 antichristendom.com
 antiwave.net
@@ -313,7 +314,6 @@ api-verify.recaptcha.net
 api.ai
 api.dropboxapi.com
 api.linksalpha.com
-api.proxlet.com
 api.pureapk.com
 api.recaptcha.net
 apiary.io
@@ -326,6 +326,7 @@ apkmirror.com
 apkmonk.com
 apkplz.com
 apkpure.com
+apkpure.net
 aplusvpn.com
 app.box.com
 app.cloudcone.com
@@ -426,6 +427,7 @@ axios.com
 axureformac.com
 azerbaycan.tv
 azerimix.com
+azirevpn.com
 azubu.tv
 azurewebsites.net
 b-ok.cc
@@ -615,7 +617,6 @@ blog.lester850.info
 blog.martinoei.com
 blog.pathtosharepoint.com
 blog.pentalogic.net
-blog.qooza.hk
 blog.ranxiang.com
 blog.sina.com.tw
 blog.sogoo.org
@@ -627,7 +628,6 @@ blog.tiney.com
 blog.workflow.is
 blog.xuite.net
 blog.youthwant.com.tw
-blog.youxu.info
 blogblog.com
 blogcatalog.com
 blogcity.me
@@ -711,6 +711,7 @@ bloomfortune.com
 blubrry.com
 blueangellive.com
 bmfinn.com
+bnbstatic.com
 bnews.co
 bnext.com.tw
 bnn.co
@@ -803,6 +804,7 @@ buy.yahoo.com.tw
 buzzhand.com
 buzzhand.net
 buzzorange.com
+buzzsprout.com
 bvpn.com
 bwgyhw.com
 bwh1.net
@@ -939,6 +941,8 @@ changsa.net
 channelnewsasia.com
 chaoex.com
 chapm25.com
+chat.lmsys.org
+chatgpt.com
 chatnook.com
 chaturbate.com
 checkgfw.com
@@ -1073,6 +1077,7 @@ ck101.com
 cl.d0z.net
 clarionproject.org
 classicalguitarblog.net
+claude.ai
 clb.org.hk
 cldr.unicode.org
 cleansite.biz
@@ -1093,6 +1098,7 @@ club1069.com
 clubhouseapi.com
 clyp.it
 cmcn.org
+cmegroup.com
 cmi.org.tw
 cmp.hku.hk
 cms.gov
@@ -1263,7 +1269,6 @@ dalailama-archives.org
 dalailama.com
 dalailama.mn
 dalailama.ru
-dalailama.usc.edu
 dalailama80.org
 dalailamacenter.org
 dalailamafellows.org
@@ -1339,6 +1344,7 @@ deviantart.com
 deviantart.net
 devio.us
 devpn.com
+devv.ai
 dfas.mil
 dfn.org
 dharamsalanet.com
@@ -1654,6 +1660,7 @@ f8.com
 fa.gov.tw
 facebook.br
 facebook.com
+facebook.de
 facebook.design
 facebook.hu
 facebook.in
@@ -2790,6 +2797,7 @@ im88.tw
 imageab.com
 imagefap.com
 imageflea.com
+imageglass.org
 images-gaytube.com
 images.comico.tw
 imageshack.us
@@ -2907,7 +2915,9 @@ iuhrdf.org
 iuksky.com
 ivacy.com
 iverycd.com
+ivonblog.com
 ivpn.net
+iwara.tv
 ixquick.com
 ixxx.com
 iyouport.com
@@ -2921,6 +2931,7 @@ jable.tv
 jamaat.org
 jamestown.org
 jamyangnorbu.com
+jan.ai
 jandyx.com
 janwongphoto.com
 japan-whores.com
@@ -3174,6 +3185,7 @@ liangzhichuanmei.com
 lianyue.net
 liaowangxizang.net
 liberal.org.hk
+libertysculpturepark.com
 libertytimes.com.tw
 library.usc.cuhk.edu.hk
 libredd.it
@@ -3216,7 +3228,6 @@ livecoin.net
 livedoor.jp
 liveleak.com
 livemint.com
-livestation.com
 livestream.com
 livevideo.com
 livingonline.us
@@ -3224,7 +3235,6 @@ livingstream.com
 liwangyang.com
 lizhizhuangbi.com
 lkcn.net
-llss.me
 lncn.org
 load.to
 lobsangwangyal.com
@@ -3382,6 +3392,7 @@ merit-times.com.tw
 meshrep.com
 mesotw.com
 messenger.com
+meta.com
 metacafe.com
 metafilter.com
 metart.com
@@ -3983,6 +3994,7 @@ partycasino.com
 partypoker.com
 passion.com
 passiontimes.hk
+passwords.google
 paste.ee
 pastebin.com
 pastie.org
@@ -4015,8 +4027,6 @@ pemulihan.or.id
 pen.io
 penchinese.com
 penchinese.net
-pengyulong.com
-penisbot.com
 penthouse.com
 pentoy.hk
 peoplebookcafe.com
@@ -4026,12 +4036,12 @@ percy.in
 perfect-privacy.com
 perfectgirls.net
 periscope.tv
+perplexity.ai
 persecutionblog.com
 persiankitty.com
 phapluan.org
 phayul.com
 philborges.com
-philly.com
 phmsociety.org
 phncdn.com
 phobos.apple.com
@@ -4071,6 +4081,7 @@ pipii.tv
 piposay.com
 piraattilahti.org
 piring.com
+pixeldrain.com
 pixelqi.com
 pixiv.net
 pixnet.net
@@ -4224,6 +4235,7 @@ python.com.tw
 pythonhackers.com
 pytorch.org
 qanote.com
+qbittorrent.org
 qgirl.com.tw
 qhigh.com
 qi-gong.me
@@ -4258,9 +4270,9 @@ qxbbs.org
 qz.com
 r0.ru
 r18.com
-ra.gg
 radicalparty.org
 radiko.jp
+radio-canada.ca
 radio.garden
 radioaustralia.net.au
 radiohilight.net
@@ -4276,12 +4288,10 @@ raindrop.io
 raizoji.or.jp
 ramcity.com.au
 rangwang.biz
-rangzen.com
 rangzen.net
 rangzen.org
 ranyunfei.com
 rapbull.net
-rapidgator.net
 rapidmoviez.com
 rapidvpn.com
 rarbgprx.org
@@ -4784,6 +4794,7 @@ storagenewsletter.com
 store.steampowered.com
 stories.google
 storify.com
+storj.io
 storm.mg
 stormmediagroup.com
 stoweboyd.com
@@ -4870,6 +4881,7 @@ tahr.org.tw
 taipei.gov.tw
 taipeisociety.org
 taipeitimes.com
+taisounds.com
 taiwan-sex.com
 taiwanbible.com
 taiwancon.com
@@ -5117,10 +5129,12 @@ tibetsupportgroup.org
 tibetswiss.ch
 tibettelegraph.com
 tibettimes.net
+tibettruth.com
 tibetwrites.org
 ticket.com.tw
 tigervpn.com
 tiktok.com
+tiktokv.com
 tiltbrush.com
 timdir.com
 time.com
@@ -5186,6 +5200,7 @@ torrentprivacy.com
 torrentproject.se
 torrenty.org
 torrentz.eu
+tortoisesvn.net
 torvpn.com
 tosh.comedycentral.com
 totalvpn.com
@@ -5465,6 +5480,7 @@ urlparser.com
 us.to
 usacn.com
 usaip.eu
+uscardforum.com
 uscnpm.org
 userapi.nytlog.com
 users.skynet.be
@@ -5842,6 +5858,7 @@ wqyd.org
 wrchina.org
 wretch.cc
 writer.zoho.com
+writesonic.com
 wsj.com
 wsj.net
 wsjhk.com
@@ -5907,6 +5924,7 @@ x-art.com
 x-berry.com
 x-wall.org
 x.co
+x.com
 x.company
 x1949x.com
 x24hr.com
@@ -6034,7 +6052,6 @@ yilubbs.com
 yingsuoss.com
 yinlei.org
 yipub.com
-yiyechat.com
 yizhihongxing.com
 yobit.net
 yobt.com
@@ -6082,13 +6099,13 @@ yuanming.net
 yuanzhengtang.org
 yulghun.com
 yunchao.net
-yuntipub.com
 yuvutu.com
 yvesgeleyn.com
 ywpw.com
 yx51.net
 yyii.org
 yyjlymb.xyz
+yysub.net
 yzzk.com
 z-lib.org
 zacebook.com
