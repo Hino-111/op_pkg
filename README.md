@@ -117,7 +117,7 @@ j$(nproc)表示最大cpu线程编译，优点速度快，缺点出错后报错�
 
     make menuconfig
 
-在openwrt>package中找到要编译的插件包，如luci-app-homeproxy：
+在openwrt>package中找到要编译的插件包，如luci-app-mihomo：
 
     make package/feeds/op_pkg/luci-app-mihomo/compile V=s
 
